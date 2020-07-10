@@ -1,49 +1,49 @@
 package com.xzw.cycore.model;
 
 public class User {
-    private String uid;
-    private String name;
-    private int age;
-    private String password;
-    private String roles;
+    private String user_name;
+    private String user_password;
+    private String avatar;
+    private int activity_type_now;
+    private int activity_confidence_now;
 
-    public String getUid() {
-        return uid;
+    public int getActivity_type_now() {
+        return activity_type_now;
     }
 
-    public void setUid(String uid) {
-        this.uid = uid;
+    public void setActivity_type_now(int activity_type_now) {
+        this.activity_type_now = activity_type_now;
     }
 
-    public String getName() {
-        return name;
+    public int getActivity_confidence_now() {
+        return activity_confidence_now;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setActivity_confidence_now(int activity_confidence_now) {
+        this.activity_confidence_now = activity_confidence_now;
     }
 
-    public int getAge() {
-        return age;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
     }
 
-    public String getPassword() {
-        return password;
+    public String getUser_password() {
+        return user_password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUser_password(String user_password) {
+        this.user_password = user_password;
     }
 
-    public String getRoles() {
-        return roles;
+    public String getAvatar() {
+        return avatar;
     }
 
-    public void setRoles(String roles) {
-        this.roles = roles;
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 }

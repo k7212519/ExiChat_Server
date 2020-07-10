@@ -1,3 +1,4 @@
+/*
 package com.xzw.cycore.config;
 
 import com.xzw.cycore.service.MyUserDetailService;
@@ -44,6 +45,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     public void configure(WebSecurity web) throws Exception {
         //解决静态资源被拦截的问题
-        web.ignoring().antMatchers("/js/**","/global/**","/assets/**");
+        web.ignoring().antMatchers("/js/**","/global/**","/assets/**","js/**");
     }
 }
+*/

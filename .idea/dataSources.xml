@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="cycore@180.76.119.79" uuid="ae024852-cacf-4a25-a4fd-a7cc87ece0e0">
+    <data-source source="LOCAL" name="jdbc:mysql://180.76.119.79:3306/exichat?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai" uuid="ea88dd93-128d-4fe5-b4e2-11ffe8202cea">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://180.76.119.79:3306/cycore?characterEncoding=UTF-8</jdbc-url>
+      <jdbc-url>jdbc:mysql://180.76.119.79:3306/exichat?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />

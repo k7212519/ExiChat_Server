@@ -1,3 +1,4 @@
+/*
 package com.xzw.cycore.service;
 
 import com.xzw.cycore.mapper.UserMapper;
@@ -19,12 +20,14 @@ public class MyUserDetailService<T extends User> implements UserDetailsService {
     @Autowired
     UserMapper userMapper;
 
-    /**
+    */
+/**
      * 登录校验
      * @param name
      * @return
      * @throws UsernameNotFoundException
-     */
+     *//*
+
     @Override
     public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
         try {
@@ -59,3 +62,4 @@ public class MyUserDetailService<T extends User> implements UserDetailsService {
 
     }
 }
+*/

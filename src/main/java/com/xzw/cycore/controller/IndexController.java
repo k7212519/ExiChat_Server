@@ -1,6 +1,4 @@
 package com.xzw.cycore.controller;
-
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -15,4 +13,6 @@ public class IndexController {
     public String loginSuccess() {
         return "userCenter";
     }
+
+
 }
