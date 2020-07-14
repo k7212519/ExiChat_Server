@@ -1,5 +1,6 @@
 package com.xzw.cycore.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.xzw.cycore.mapper.ActivityMapper;
 import com.xzw.cycore.mapper.UserMapper;
 import com.xzw.cycore.model.Activity;
@@ -9,10 +10,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import sun.rmi.runtime.Log;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 public class SignInUpController {
@@ -22,6 +26,7 @@ public class SignInUpController {
 
     @Autowired
     ActivityMapper activityMapper;
+
 
 
     @GetMapping("/addUser")
@@ -43,6 +48,13 @@ public class SignInUpController {
         activity.setCreate_time(new Timestamp(System.currentTimeMillis()));
         activityMapper.InsertActivity(activity);
         return "index";
+    }
+
+    @ResponseBody
+    @GetMapping("/queryByName")
+    public String selectUser(String name) {
+        return JSON.toJSONString(userMapper.findUserByName(name));
+
     }
 
     /*
