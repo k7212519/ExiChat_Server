@@ -5,6 +5,7 @@ import com.xzw.cycore.model.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
@@ -15,4 +16,7 @@ public interface UserMapper {
 
     @Select("Select * from user where user_name = #{user_name}")
     List<User> findUserByName(String user_name);
+
+    @Update("Update user SET activity_type_now = #{activity_type_now}, activity_confidence_now = #{activity_confidence_now} WHERE user_name=#{user_name}")
+    void Update(int activity_type_now, int activity_confidence_now, String user_name);
 }

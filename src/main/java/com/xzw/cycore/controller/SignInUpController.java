@@ -39,6 +39,7 @@ public class SignInUpController {
         return "index";
     }
 
+    @ResponseBody
     @GetMapping("/addActivity")
     public String addActivity(String name, int type, int confidence) {
         Activity activity = new Activity();
@@ -47,7 +48,9 @@ public class SignInUpController {
         activity.setActivity_confidence(confidence);
         activity.setCreate_time(new Timestamp(System.currentTimeMillis()));
         activityMapper.InsertActivity(activity);
-        return "index";
+        //更新当前用户的实时状态
+        userMapper.Update(type, confidence, name);
+        return "1";
     }
 
     @ResponseBody
