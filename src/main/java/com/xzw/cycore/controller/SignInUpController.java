@@ -57,7 +57,12 @@ public class SignInUpController {
     @GetMapping("/queryByName")
     public String selectUser(String name) {
         return JSON.toJSONString(userMapper.findUserByName(name));
+    }
 
+    @ResponseBody
+    @GetMapping("/queryAct")
+    public String queryActivityNowByName(String name) {
+        return JSON.toJSONString(userMapper.SelectActivity(name));
     }
 
     /*

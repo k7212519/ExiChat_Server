@@ -19,4 +19,7 @@ public interface UserMapper {
 
     @Update("Update user SET activity_type_now = #{activity_type_now}, activity_confidence_now = #{activity_confidence_now} WHERE user_name=#{user_name}")
     void Update(int activity_type_now, int activity_confidence_now, String user_name);
+
+    @Select("Select activity_type_now, activity_confidence_now FROM user WHERE user_name = #{user_name}")
+    List<User> SelectActivity(String user_name);
 }
