@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="jdbc:mysql://180.76.119.79:3306/exichat?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai" uuid="ea88dd93-128d-4fe5-b4e2-11ffe8202cea">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>forget</secret-storage>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

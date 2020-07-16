@@ -50,6 +50,7 @@ public class SignInUpController {
         activityMapper.InsertActivity(activity);
         //更新当前用户的实时状态
         userMapper.Update(type, confidence, name);
+        //测试
         return "1";
     }
 
