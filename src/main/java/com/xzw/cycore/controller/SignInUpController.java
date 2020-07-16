@@ -65,6 +65,12 @@ public class SignInUpController {
         return JSON.toJSONString(userMapper.SelectActivity(name));
     }
 
+    @ResponseBody
+    @GetMapping("/getActAll")
+    public String queryAllActivityNow() {
+        return JSON.toJSONString(userMapper.SelectActivityAll());
+    }
+
     /*
     注册页面
      */

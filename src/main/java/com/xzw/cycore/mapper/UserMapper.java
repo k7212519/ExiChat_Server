@@ -22,4 +22,7 @@ public interface UserMapper {
 
     @Select("Select activity_type_now, activity_confidence_now FROM user WHERE user_name = #{user_name}")
     List<User> SelectActivity(String user_name);
+
+    @Select("Select user_name, activity_type_now, activity_confidence_now FROM user")
+    List<User> SelectActivityAll();
 }
