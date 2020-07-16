@@ -66,7 +66,7 @@ public class SignInUpController {
     }
 
     @ResponseBody
-    @GetMapping("/getActAll")
+    @GetMapping("/queryActAll")
     public String queryAllActivityNow() {
         return JSON.toJSONString(userMapper.SelectActivityAll());
     }
