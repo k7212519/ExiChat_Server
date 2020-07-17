@@ -27,31 +27,36 @@ public class SignInUpController {
     @Autowired
     ActivityMapper activityMapper;
 
-
-
+    @ResponseBody
     @GetMapping("/addUser")
-    public String addUser(String name, String pwd) {
-        User user = new User();
-        user.setUser_name(name);
-        user.setUser_password(pwd);
-        user.setAvatar("../static/img/jsdlkfjsdk.jpg");
-        userMapper.Insert(user);
-        return "index";
+    public int addUser(String name, String pwd) {
+        if (userMapper.findUserByName(name) == null) {
+            User user = new User();
+            user.setUser_name(name);
+            user.setUser_password(pwd);
+            user.setAvatar("../static/img/jsdlkfjsdk.jpg");
+            userMapper.Insert(user);
+        }
+
+        return 1;
     }
 
     @ResponseBody
     @GetMapping("/addActivity")
-    public String addActivity(String name, int type, int confidence) {
-        Activity activity = new Activity();
-        activity.setUser_name(name);
-        activity.setActivity_type(type);
-        activity.setActivity_confidence(confidence);
-        activity.setCreate_time(new Timestamp(System.currentTimeMillis()));
-        activityMapper.InsertActivity(activity);
-        //更新当前用户的实时状态
-        userMapper.Update(type, confidence, name);
+    public int addActivity(String name, int type, int confidence) {
+        if (name != null) {
+            Activity activity = new Activity();
+            activity.setUser_name(name);
+            activity.setActivity_type(type);
+            activity.setActivity_confidence(confidence);
+            activity.setCreate_time(new Timestamp(System.currentTimeMillis()));
+            activityMapper.InsertActivity(activity);
+            //更新当前用户的实时状态
+            userMapper.Update(type, confidence, name);
+        }
+
         //测试
-        return "1";
+        return 1;
     }
 
     @ResponseBody

@@ -25,101 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0519e7a-56fe-426d-aeba-d0dd2e24cb69" name="Default Changelist" comment="dev: home测试">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/CycoreApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/controller/SignInUpController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/controller/testController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/mapper/ActivityMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/model/Activity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/css/form-elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/ico/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/ico/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/img/backgrounds/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/img/backgrounds/1@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/img/backgrounds/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/img/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery-1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery.backstretch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery.backstretch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/retina-1.1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/retina-1.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/assets/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/bodyCommon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/navibar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/signIn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/signUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/signUpResult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/userCenter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/xzw/cycore/CycoreApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/controller/SignInUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/controller/SignInUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xzw/cycore/controller/SignInUpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/controller/SignInUpController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1594905577505</updated>
       <workItem from="1594905583995" duration="3021000" />
+      <workItem from="1594989394854" duration="2554000" />
+      <workItem from="1595011202994" duration="797000" />
     </task>
     <servers />
   </component>
@@ -189,55 +101,64 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dev: home测试" />
     <option name="LAST_COMMIT_MESSAGE" value="dev: home测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1164" y="560" key="#Notifications" timestamp="1594905609954">
+    <state x="1164" y="560" width="846" height="612" key="#Notifications" timestamp="1595011334597">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1164" y="560" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1594905609954" />
+    <state x="1164" y="560" width="846" height="612" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1595011334597" />
+    <state x="1210" y="449" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594990285962">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1210" y="449" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1594990285962" />
     <state x="725" y="457" width="1200" height="800" key="DiffContextDialog" timestamp="1594913135412">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="725" y="457" width="1200" height="800" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1594913135412" />
-    <state x="1106" y="612" key="FileChooserDialogImpl" timestamp="1594913328106">
+    <state x="1106" y="612" key="FileChooserDialogImpl" timestamp="1594989478851">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1106" y="612" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1594913328106" />
-    <state width="1342" height="266" key="GridCell.Tab.0.bottom" timestamp="1594912875765">
+    <state x="1106" y="612" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1594989478851" />
+    <state width="1680" height="337" key="GridCell.Tab.0.bottom" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
-    <state width="1342" height="266" key="GridCell.Tab.0.center" timestamp="1594912875765">
+    <state width="1680" height="337" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state width="1680" height="337" key="GridCell.Tab.0.center" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
-    <state width="1342" height="266" key="GridCell.Tab.0.left" timestamp="1594912875765">
+    <state width="1680" height="337" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state width="1680" height="337" key="GridCell.Tab.0.left" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
-    <state width="1342" height="266" key="GridCell.Tab.0.right" timestamp="1594912875765">
+    <state width="1680" height="337" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state width="1680" height="337" key="GridCell.Tab.0.right" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
-    <state width="1342" height="266" key="GridCell.Tab.1.bottom" timestamp="1594912875765">
+    <state width="1680" height="337" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state width="1680" height="337" key="GridCell.Tab.1.bottom" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
-    <state width="1342" height="266" key="GridCell.Tab.1.center" timestamp="1594912875765">
+    <state width="1680" height="337" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state width="1680" height="337" key="GridCell.Tab.1.center" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
-    <state width="1342" height="266" key="GridCell.Tab.1.left" timestamp="1594912875765">
+    <state width="1680" height="337" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state width="1680" height="337" key="GridCell.Tab.1.left" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
-    <state width="1342" height="266" key="GridCell.Tab.1.right" timestamp="1594912875765">
+    <state width="1680" height="337" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state width="1680" height="337" key="GridCell.Tab.1.right" timestamp="1595012278864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1342" height="266" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594912875765" />
+    <state width="1680" height="337" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595012278864" />
+    <state x="1015" y="643" key="git4idea.merge.GitPullDialog" timestamp="1594989487687">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1015" y="643" key="git4idea.merge.GitPullDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1594989487687" />
   </component>
 </project>
