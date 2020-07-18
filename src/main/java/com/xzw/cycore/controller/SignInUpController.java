@@ -5,12 +5,14 @@ import com.xzw.cycore.mapper.ActivityMapper;
 import com.xzw.cycore.mapper.UserMapper;
 import com.xzw.cycore.model.Activity;
 import com.xzw.cycore.model.User;
+import com.xzw.cycore.util.FileUploadUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 import sun.rmi.runtime.Log;
 
 import java.sql.Timestamp;
@@ -26,6 +28,8 @@ public class SignInUpController {
 
     @Autowired
     ActivityMapper activityMapper;
+
+
 
     @ResponseBody
     @GetMapping("/addUser")
@@ -76,6 +80,20 @@ public class SignInUpController {
     public String queryAllActivityNow() {
         return JSON.toJSONString(userMapper.SelectActivityAll());
     }
+
+    @ResponseBody
+    @RequestMapping("/uploadAvatar")
+    public int uploadAvatar(@RequestParam("avatar") MultipartFile file, String userName) {
+        String localPath = System.getProperty("user.dir")+"/src/main/resources/static/upload/avatar";
+        if (FileUploadUtil.upload(file, localPath, userName + "_avatar.jpg")) {
+            System.out.println("上传成功");
+        } else {
+            System.out.println("上传失败");
+        }
+        return 1;
+    }
+
+
 
     /*
     注册页面
