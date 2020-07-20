@@ -29,66 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47c8a14-ef16-45d0-8091-10ae6cdeef1e" name="Default Changelist" comment="none">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea88dd93-128d-4fe5-b4e2-11ffe8202cea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ea88dd93-128d-4fe5-b4e2-11ffe8202cea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/controller/SignInUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/controller/SignInUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzw/cycore/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzw/cycore/controller/SignInUpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/controller/SignInUpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xzw/cycore/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/animated.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/jquery-1.11.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery-1.11.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/jquery-1.11.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/jquery.backstretch.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery.backstretch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/jquery.backstretch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/jquery.backstretch.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/retina-1.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/retina-1.1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/retina-1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/retina-1.1.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/js/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/upload/avatar/k7212519_avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/upload/avatar/k7212519_avatar.jpg" afterDir="false" />
+    <list default="true" id="f47c8a14-ef16-45d0-8091-10ae6cdeef1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xzw/cycore/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzw/cycore/model/User.class" afterDir="false" />
     </list>
     <ignored path="F:\proj\springboot\cycore\.idea\shelf/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -166,11 +108,6 @@
               </filtering>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -653,7 +590,7 @@
       <workItem from="1595047836163" duration="3379000" />
       <workItem from="1595053307905" duration="6104000" />
       <workItem from="1595211079898" duration="1765000" />
-      <workItem from="1595212958197" duration="9177000" />
+      <workItem from="1595212958197" duration="9266000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1595209905072</created>
@@ -662,11 +599,25 @@
       <option name="project" value="LOCAL" />
       <updated>1595209905072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="none">
+      <created>1595240815481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595240815482</updated>
+    </task>
+    <task id="LOCAL-00003" summary="none">
+      <created>1595240834674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595240834674</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12527000" />
+    <option name="totallyTimeSpent" value="12616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1054" extended-state="6" />
@@ -748,6 +699,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dev: home测试" />
     <MESSAGE value="none" />
@@ -1100,6 +1053,51 @@
             <element signature="e#2469#2470#0" expanded="true" />
             <element signature="e#2586#2587#0" expanded="true" />
             <element signature="e#2647#2648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ea88dd93-128d-4fe5-b4e2-11ffe8202cea/schema/exichat/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6b7bbb44-abc8-49fe-905f-c389b31f0c6e">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ea88dd93-128d-4fe5-b4e2-11ffe8202cea/schema/exichat/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6b7bbb44-abc8-49fe-905f-c389b31f0c6e">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ea88dd93-128d-4fe5-b4e2-11ffe8202cea/schema/exichat/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6b7bbb44-abc8-49fe-905f-c389b31f0c6e">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ea88dd93-128d-4fe5-b4e2-11ffe8202cea/schema/exichat/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6b7bbb44-abc8-49fe-905f-c389b31f0c6e">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/xzw/cycore/model/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1602#0" expanded="true" />
           </folding>
         </state>
       </provider>
