@@ -47,7 +47,7 @@ public class SignInUpController {
 
     @ResponseBody
     @GetMapping("/addActivity")
-    public int addActivity(String name, int type, int confidence) {
+    public int addActivity(String name, int type, int confidence, int level) {
         if (name != null) {
             Activity activity = new Activity();
             activity.setUser_name(name);
@@ -56,7 +56,7 @@ public class SignInUpController {
             activity.setCreate_time(new Timestamp(System.currentTimeMillis()));
             activityMapper.InsertActivity(activity);
             //更新当前用户的实时状态
-            userMapper.Update(type, confidence, name);
+            userMapper.Update(type, confidence, name, level);
         }
 
         //测试
@@ -82,6 +82,12 @@ public class SignInUpController {
     }
 
     @ResponseBody
+    @GetMapping("/setLevel")
+    public void setActivityPerceptionLevel(int level, String name) {
+        userMapper.updatePerceptionLevel(level, name);
+    }
+
+    /*@ResponseBody
     @RequestMapping("/uploadAvatar")
     public int uploadAvatar(@RequestParam("avatar") MultipartFile file, String userName) {
         String localPath = System.getProperty("user.dir")+"/src/main/resources/static/upload/avatar";
@@ -91,7 +97,9 @@ public class SignInUpController {
             System.out.println("上传失败");
         }
         return 1;
-    }
+    }*/
+
+
 
 
 

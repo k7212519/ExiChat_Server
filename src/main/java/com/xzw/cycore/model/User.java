@@ -6,6 +6,15 @@ public class User {
     private String avatar;
     private int activity_type_now;
     private int activity_confidence_now;
+    private int activity_perception_level;
+
+    public int getActivity_perception_level() {
+        return activity_perception_level;
+    }
+
+    public void setActivity_perception_level(int activity_perception_level) {
+        this.activity_perception_level = activity_perception_level;
+    }
 
     public int getActivity_type_now() {
         return activity_type_now;
