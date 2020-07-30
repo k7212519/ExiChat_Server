@@ -2,23 +2,19 @@ package com.xzw.cycore.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.xzw.cycore.mapper.ActivityMapper;
+import com.xzw.cycore.mapper.NotificationSetMapper;
+import com.xzw.cycore.mapper.TimeScopeSettingMapper;
 import com.xzw.cycore.mapper.UserMapper;
 import com.xzw.cycore.model.Activity;
+import com.xzw.cycore.model.HistoryTimeScopeSettings;
 import com.xzw.cycore.model.User;
-import com.xzw.cycore.util.FileUploadUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.multipart.MultipartFile;
-import sun.rmi.runtime.Log;
 
 import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
 
 @Controller
 public class SignInUpController {
@@ -28,6 +24,12 @@ public class SignInUpController {
 
     @Autowired
     ActivityMapper activityMapper;
+
+    @Autowired
+    NotificationSetMapper notificationSetMapper;
+
+    @Autowired
+    TimeScopeSettingMapper timeScopeSettingMapper;
 
 
 
@@ -86,6 +88,31 @@ public class SignInUpController {
     public void setActivityPerceptionLevel(int level, String name) {
         userMapper.updatePerceptionLevel(level, name);
     }
+
+
+    @ResponseBody
+    @GetMapping("/uploadNotifySet")
+    public void uploadNotificationSetting(String name, String target, int start, int end) {
+        if (name != null) {
+            notificationSetMapper.InsertNotificationSetting(name, target, start, end, new Timestamp(System.currentTimeMillis()));
+        }
+    }
+
+    @ResponseBody
+    @GetMapping("/uploadTimeSet")
+    public void uploadTimeScopeSetting(String name, String type, String start, String end) {
+        if (name != null) {
+            HistoryTimeScopeSettings historyTimeScopeSettings = new HistoryTimeScopeSettings();
+            historyTimeScopeSettings.setUser_name(name);
+            historyTimeScopeSettings.setType(type);
+            historyTimeScopeSettings.setStart_time(start);
+            historyTimeScopeSettings.setEnd_time(end);
+            historyTimeScopeSettings.setCreate_time(new Timestamp(System.currentTimeMillis()));
+            timeScopeSettingMapper.InsertTimeScopeSetting(historyTimeScopeSettings);
+        }
+    }
+
+
 
     /*@ResponseBody
     @RequestMapping("/uploadAvatar")

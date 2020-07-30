@@ -895,86 +895,163 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="224" parent="2" name="activity"/>
-    <table id="225" parent="2" name="user"/>
-    <column id="226" parent="224" name="id">
+    <table id="225" parent="2" name="history_activity_notification_settings"/>
+    <table id="226" parent="2" name="history_activity_time_scope_settings"/>
+    <table id="227" parent="2" name="user"/>
+    <column id="228" parent="224" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="227" parent="224" name="user_name">
+    <column id="229" parent="224" name="user_name">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="228" parent="224" name="activity_type">
+    <column id="230" parent="224" name="activity_type">
       <Position>3</Position>
       <DataType>tinyint(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="229" parent="224" name="activity_confidence">
+    <column id="231" parent="224" name="activity_confidence">
       <Position>4</Position>
       <DataType>tinyint(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="230" parent="224" name="create_time">
+    <column id="232" parent="224" name="create_time">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="231" parent="224" name="activity_user_name_index">
+    <index id="233" parent="224" name="activity_user_name_index">
       <ColNames>user_name</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="232" parent="224" name="PRIMARY">
+    <key id="234" parent="224" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="233" parent="225" name="id">
+    <column id="235" parent="225" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="234" parent="225" name="user_name">
+    <column id="236" parent="225" name="user_name">
       <Position>2</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="235" parent="225" name="user_password">
+    <column id="237" parent="225" name="target_user_name">
       <Position>3</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="225" name="avatar">
+    <column id="238" parent="225" name="start_activity">
       <Position>4</Position>
-      <DataType>varchar(200)|0s</DataType>
+      <DataType>tinyint(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="237" parent="225" name="activity_type_now">
+    <column id="239" parent="225" name="end_activity">
       <Position>5</Position>
       <DataType>tinyint(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="225" name="activity_confidence_now">
+    <column id="240" parent="225" name="create_time">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="241" parent="225" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="242" parent="226" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="243" parent="226" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="244" parent="226" name="type">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="245" parent="226" name="start_time">
+      <Position>4</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="246" parent="226" name="end_time">
+      <Position>5</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="247" parent="226" name="create_time">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="248" parent="226" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="249" parent="227" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="250" parent="227" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="227" name="user_password">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="227" name="avatar">
+      <Position>4</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="253" parent="227" name="activity_type_now">
+      <Position>5</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>4</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="254" parent="227" name="activity_confidence_now">
       <Position>6</Position>
       <DataType>tinyint(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="225" name="activity_perception_level">
+    <column id="255" parent="227" name="activity_perception_level">
       <Position>7</Position>
       <DataType>tinyint(4)|0s</DataType>
       <DefaultExpression>1</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="240" parent="225" name="user_user_name_index">
+    <index id="256" parent="227" name="user_user_name_index">
       <ColNames>user_name</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="241" parent="225" name="PRIMARY">
+    <key id="257" parent="227" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
