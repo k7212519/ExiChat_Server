@@ -36,7 +36,7 @@ public class SignInUpController {
     @ResponseBody
     @GetMapping("/addUser")
     public int addUser(String name, String pwd) {
-        if (userMapper.findUserByName(name) == null) {
+        if (userMapper.findUserByName(name).size() == 0) {
             User user = new User();
             user.setUser_name(name);
             user.setUser_password(pwd);
@@ -57,6 +57,7 @@ public class SignInUpController {
             activity.setActivity_confidence(confidence);
             activity.setCreate_time(new Timestamp(System.currentTimeMillis()));
             activityMapper.InsertActivity(activity);
+            //System.out.println("添加运动信息");
             //更新当前用户的实时状态
             userMapper.Update(type, confidence, name, level);
         }
