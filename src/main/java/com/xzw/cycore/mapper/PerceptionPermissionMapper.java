@@ -6,6 +6,8 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
+import java.sql.Timestamp;
+
 @Mapper
 public interface PerceptionPermissionMapper {
     @Insert("Insert into perception_permission_settings (user_name, target_user_name, perception_level, modify_time)" +
@@ -18,4 +20,8 @@ public interface PerceptionPermissionMapper {
     @Update("Update perception_permission_settings SET perception_level = #{perception_level} " +
             "WHERE user_name= #{user_name} AND target_user_name= #{target_user_name}")
     void UpdatePerceptionLevelByName(String user_name, String target_user_name, int perception_level);
+
+    @Insert("Insert into history_perception_permission_settings (user_name, target_user_name, perception_level, create_time)" +
+            "values (#{user_name}, #{target_user_name}, #{perception_level}, #{create_time})")
+    void InsertHistoryPerceptionPermissionLevel(String user_name, String target_user_name, int perception_level, Timestamp create_time);
 }

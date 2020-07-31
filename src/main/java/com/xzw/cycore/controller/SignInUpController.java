@@ -133,6 +133,8 @@ public class SignInUpController {
                 perceptionPermissionMapper.InsertPerceptionPermission(perception_permission_settings);
             }
 
+            perceptionPermissionMapper.InsertHistoryPerceptionPermissionLevel(name, target, level, new Timestamp(System.currentTimeMillis()));
+
         }
     }
 
@@ -148,6 +150,11 @@ public class SignInUpController {
         }
     }
 
+    /*@ResponseBody
+    @GetMapping("/uploadPermissionSet")
+    public void uploadPermissionSetting(String name, String target, String level) {
+
+    }*/
 
 
     /*@ResponseBody
