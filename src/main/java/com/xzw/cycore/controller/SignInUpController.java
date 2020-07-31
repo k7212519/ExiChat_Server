@@ -1,12 +1,10 @@
 package com.xzw.cycore.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.xzw.cycore.mapper.ActivityMapper;
-import com.xzw.cycore.mapper.NotificationSetMapper;
-import com.xzw.cycore.mapper.TimeScopeSettingMapper;
-import com.xzw.cycore.mapper.UserMapper;
+import com.xzw.cycore.mapper.*;
 import com.xzw.cycore.model.Activity;
 import com.xzw.cycore.model.HistoryTimeScopeSettings;
+import com.xzw.cycore.model.Perception_permission_settings;
 import com.xzw.cycore.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -30,6 +28,9 @@ public class SignInUpController {
 
     @Autowired
     TimeScopeSettingMapper timeScopeSettingMapper;
+
+    @Autowired
+    PerceptionPermissionMapper perceptionPermissionMapper;
 
 
 
@@ -110,6 +111,40 @@ public class SignInUpController {
             historyTimeScopeSettings.setEnd_time(end);
             historyTimeScopeSettings.setCreate_time(new Timestamp(System.currentTimeMillis()));
             timeScopeSettingMapper.InsertTimeScopeSetting(historyTimeScopeSettings);
+        }
+    }
+
+    @ResponseBody
+    @GetMapping("/updatePerSet")
+    public void updatePerceptionPermissionSetting(String name, String target, int level) {
+        if (name != null) {
+            Perception_permission_settings perception_permission_settings = perceptionPermissionMapper.QueryPerceptionPermissionByName(name, target);
+            if (perception_permission_settings != null) {
+                //更新已存在记录
+                perceptionPermissionMapper.UpdatePerceptionLevelByName(name, target, level);
+
+            } else {
+                //未查到记录，插入新的收据
+                perception_permission_settings = new Perception_permission_settings();
+                perception_permission_settings.setUser_name(name);
+                perception_permission_settings.setTarget_user_name(target);
+                perception_permission_settings.setPerception_level(level);
+                perception_permission_settings.setModify_time(new Timestamp(System.currentTimeMillis()));
+                perceptionPermissionMapper.InsertPerceptionPermission(perception_permission_settings);
+            }
+
+        }
+    }
+
+    @ResponseBody
+    @GetMapping("/queryPerSet")
+    public int queryPerceptionByName(String name, String target) {
+        Perception_permission_settings perception_permission_settings = perceptionPermissionMapper.QueryPerceptionPermissionByName(name, target);
+        if (perception_permission_settings != null) {
+            return perception_permission_settings.getPerception_level();
+        } else {
+            //不存在该记录
+            return 9;
         }
     }
 
