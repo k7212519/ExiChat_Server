@@ -1,3 +1,4 @@
+/*
 package com.xzw.cycore.controller;
 
 import org.springframework.stereotype.Controller;
@@ -143,4 +144,4 @@ public class FileController {
         }
         return "upload successful";
     }
-}
+}*/

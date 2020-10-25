@@ -1,3 +1,4 @@
+/*
 package com.xzw.cycore.controller;
 
 import com.alibaba.fastjson.JSON;
@@ -88,7 +89,8 @@ public class SignInUpController {
         userMapper.updatePerceptionLevel(level, name);
     }
 
-    /*@ResponseBody
+    */
+/*@ResponseBody
     @RequestMapping("/uploadAvatar")
     public int uploadAvatar(@RequestParam("avatar") MultipartFile file, String userName) {
         String localPath = System.getProperty("user.dir")+"/src/main/resources/static/upload/avatar";
@@ -98,41 +100,53 @@ public class SignInUpController {
             System.out.println("上传失败");
         }
         return 1;
-    }*/
+    }*//*
 
 
 
 
 
-    /*
+
+    */
+/*
     注册页面
-     */
+     *//*
+
     @GetMapping("/SignUp")
     public String signUp() {
         return "signUp";
     }
 
-    /*
+    */
+/*
     登录页面
-     */
+     *//*
+
     @GetMapping("/SignIn")
     public String signIn() {
         return "signIn";
     }
 
-   /* @RequestMapping("/doSignIn")
+   */
+/* @RequestMapping("/doSignIn")
     public String doSignIn() {
         return "redirect:/loginSuccess";
-    }*/
+    }*//*
 
-    /*
+
+    */
+/*
     注册行为
      *//*
+*/
+/*
     @RequestMapping("/doSignUp")
     public String signUp(@RequestParam("name")String name,
                          @RequestParam("age")int age,
                          @RequestParam("password")String password) {
-        *//*User user = new User();
+        *//*
+*/
+/*User user = new User();
         System.out.println(name+age+password);
         user.setName(name);
         user.setAge(age);
@@ -142,10 +156,14 @@ public class SignInUpController {
         userMapper.Insert(user);
         System.out.println("insert success");
         return "signUpResult";*//*
-    }*/
+*/
+/*
+    }*//*
+
 
     @RequestMapping("/SignInSuccess")
     public String signInSuccess() {
         return "userCenter";
     }
 }
+*/

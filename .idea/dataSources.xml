@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="jdbc:mysql://180.76.119.79:3306/exichat?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai" uuid="ea88dd93-128d-4fe5-b4e2-11ffe8202cea">
+    <data-source source="LOCAL" name="jdbc:mysql://81.68.163.168:3306/vTokenAssist?serverTimezone=GMT%2B8" uuid="f037aa33-5a13-442e-86d7-733314216c88">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://180.76.119.79:3306/exichat?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-      </driver-properties>
+      <jdbc-url>jdbc:mysql://81.68.163.168:3306/vTokenAssist?serverTimezone=GMT%2B8</jdbc-url>
     </data-source>
   </component>
 </project>
