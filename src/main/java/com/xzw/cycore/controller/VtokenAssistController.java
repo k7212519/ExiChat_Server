@@ -19,4 +19,34 @@ public class VtokenAssistController {
         String code = deviceMapper.getCodeByIMEI(IMEI);
         return code;
     }
+
+    @GetMapping("/insertDevice")
+    public boolean inset(String IMEI) {
+        if (deviceMapper.findDeviceByIMEI(IMEI) == null) {
+            Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+            deviceMapper.insertDevice(IMEI, timestamp);
+            return true;
+        }
+        return false;
+    }
+
+    @GetMapping("/queryActiveState")
+    public int queryActiveState(String IMEI) {
+        if (deviceMapper.findDeviceByIMEI(IMEI) == null) {
+            inset(IMEI);
+            return 0;
+        } else {
+            return deviceMapper.getActiveState(IMEI);
+        }
+    }
+
+    @GetMapping("/checkUpdate")
+    public String checkUpdate(double version) {
+        double versionNew = deviceMapper.getVersion();
+        if (versionNew > version) {
+            return deviceMapper.getNewVersionUrl();
+        } else {
+            return "0";
+        }
+    }
 }
