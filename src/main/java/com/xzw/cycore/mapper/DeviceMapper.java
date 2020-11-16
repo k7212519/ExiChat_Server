@@ -1,6 +1,7 @@
 package com.xzw.cycore.mapper;
 
 import com.xzw.cycore.model.Device;
+import com.xzw.cycore.model.TableCode;
 import com.xzw.cycore.model.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
@@ -28,4 +29,7 @@ public interface DeviceMapper {
 
     @Select("Select url from version_update WHERE id = '1'")
     String getNewVersionUrl();
+
+    @Select("Select * from table_code WHERE code = #{code}")
+    TableCode getTableCodeBy(String code);
 }

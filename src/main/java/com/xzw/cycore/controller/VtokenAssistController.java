@@ -1,6 +1,7 @@
 package com.xzw.cycore.controller;
 
 import com.xzw.cycore.mapper.DeviceMapper;
+import com.xzw.cycore.model.TableCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -41,12 +42,27 @@ public class VtokenAssistController {
     }
 
     @GetMapping("/checkUpdate")
-    public String checkUpdate(double version) {
+    public String checkUpdate(String version) {
         double versionNew = deviceMapper.getVersion();
-        if (versionNew > version) {
+        if (versionNew > Double.parseDouble(version)) {
             return deviceMapper.getNewVersionUrl();
         } else {
             return "0";
         }
+    }
+
+    @GetMapping("/queryCode")
+    public int activeByCode(String code, String IMEI) {
+        if (!code.isEmpty()) {
+            TableCode tableCode = deviceMapper.getTableCodeBy(code);
+            if (tableCode != null) {
+                if (tableCode.getValue() == 1) {
+                    return 1;
+                }
+                return 0;
+            }
+            return 0;
+        }
+        return 0;
     }
 }
