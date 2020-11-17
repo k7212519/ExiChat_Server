@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cycore">
+    <output-path>$PROJECT_DIR$/out/artifacts/cycore</output-path>
+    <root id="archive" name="cycore.war" />
+  </artifact>
+</component>
